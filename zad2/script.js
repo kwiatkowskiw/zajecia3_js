@@ -6,7 +6,8 @@ addBtn.addEventListener('click', handleAddBtn);
 changeColorBtn.addEventListener('click', handleChangeColor);
 
 function handleAddBtn(){
-    counter.innerText = Number(counter.innerText + 1);
+    const result = Number(counter.innerText);
+    counter.innerText = result + 1;
 }
 
 function handleChangeColor(){
